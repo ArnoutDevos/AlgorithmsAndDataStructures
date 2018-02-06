@@ -1,0 +1,1 @@
+- **lock** allows only one thread to enter the part that's locked and the lock is not shared with any other processes.
