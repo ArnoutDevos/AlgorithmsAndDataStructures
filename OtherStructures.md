@@ -24,7 +24,9 @@ NP-Hard are problems that are at least as hard as the hardest problems in NP. No
 
 ## Example classes
 ### Knapsack problem
-#### Too easy: splittable items
+**NOTE:** The Knapsack problem is **NP-complete** when the numbers are given as **binary numbers**. In this case, the dynamic programming will take exponentially many steps (in the size of the input, i.e. the number of bits in the input) to finish.
+#### Easy: splittable items
 Greedy (non NP-complete) approach:
 *Pick largest value(i)/weight(i) first, and split last item*
 #### Non-splittable items (0/1 Knapsack)
+### Traveling salesman
