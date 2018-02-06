@@ -76,7 +76,7 @@ In general **Quicksort** is **better**:
 - Better **locality of reference** than mergesort (faster accesses)
 - Memory Worst-case `O(log(n))` (stack calls) <-> Mergesort `O(n)` memory for merging
 
-**BUT**, for some cases:
+**BUT**, for some cases **Mergesort** is **better**:
 1. MergeSort is **stable** by design, equal elements keep their **original order**.
 2. Easily implemented **parallel** (multithreading)
 3. **Guaranteed worst-case** of `O(nlog(n))`
